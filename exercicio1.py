@@ -15,7 +15,7 @@ class Aluno(Pessoa):
         print(f"Matrícula: {self.matricula}, Curso: {self.curso}")
 
 # Exemplo de uso
-pessoa = Pessoa("João", 30)
+pessoa = Pessoa("Lucas", 20)
 pessoa.exibir_dados()
-aluno = Aluno("Maria", 22, "2023001", "Engenharia")
+aluno = Aluno("Kaio", 15, "2023451", "Medicina")
 aluno.exibir_dados()
